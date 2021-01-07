@@ -45,3 +45,22 @@ console.log("Bem-vindos ao Discovery!");
 3. Editor de código - Em Visual Studio Code, por exemplo. Tanto por tags "script" no HTML ou em arquivos com extensão ".js" (inserindo-o no HTML).
 
 ## Adicionando arquivos JS
+
+Criamos um arquivo, como "script", com extensão .js e com o código em JavaScript. Inserimos esse arquivo JS dentro do HTML:
+
+```HTML
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Adicionando arquivo JS</title>
+  </head>
+
+  <body>
+    <script src="./script.js"></script>
+  </body>
+</html>
+```
+
+## Comentários em JS
+
+Para ignorar código em JavaScript ou comentá-lo, podemos usar "//" em caso de uma linha e "/\* \*/" para mais de uma linha/comentário de bloco.
