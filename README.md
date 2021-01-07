@@ -33,7 +33,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 ### Grade do curso
 
 <details>
-  <summary>Módulo 01 | Introdução 🛠</summary>
+  <summary>Módulo 01 | Introdução ✔️</summary>
 
 - Abertura
 - Javascript
@@ -41,7 +41,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 02 | Primeiros Passos 🚧 </summary>
+  <summary>Módulo 02 | Primeiros Passos ✔️</summary>
 
 - Sintaxe
 - Maneiras de executar o JavaScript
@@ -50,7 +50,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 03 | Tipos de Dados 🚧</summary>
+  <summary>Módulo 03 | Tipos de Dados 🛠️</summary>
 
 - Introdução
 - String
