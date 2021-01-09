@@ -64,3 +64,21 @@ Criamos um arquivo, como "script", com extensão .js e com o código em JavaScri
 ## Comentários em JS
 
 Para ignorar código em JavaScript ou comentá-lo, podemos usar "//" em caso de uma linha e "/\* \*/" para mais de uma linha/comentário de bloco.
+
+# Tipos de dados
+
+Para aprender uma linguagem nova, precisamos entender sua gramática, ou seja, os elementos da linguagem e suas combinações.
+
+## String
+
+## Number
+
+## Boolean
+
+## Undefined vs null
+
+## Object
+
+## Array
+
+## Conclusão
