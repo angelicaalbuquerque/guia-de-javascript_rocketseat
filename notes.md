@@ -67,7 +67,21 @@ Para ignorar código em JavaScript ou comentá-lo, podemos usar "//" em caso de 
 
 # Tipos de dados
 
-Para aprender uma linguagem nova, precisamos entender sua gramática, ou seja, os elementos da linguagem e suas combinações.
+Para aprender uma linguagem nova, precisamos entender sua gramática, ou seja, os elementos da linguagem e suas combinações; escrever corretamente.
+
+No caso do JavaScript, precisamos entender os tipos de dados e quais as combinações para, então, desenvolvermos nossa habilidade de desenvolver corretamente com JavaScript.
+
+O vocabulário é o conjunto de termos e expressões da linguagem ou o agrupamento de palavras. Quanto mais você vai aprendendo os termos e expressões da linguagem, maior será sua fluência e maior será o seu vocabulário.
+
+Então, precisamos, então:
+
+- Saber como escrever;
+- Saber os significados;
+- Continuar aprendendo para crescer nosso vocabulário.
+
+Neste módulo, o foco é conceito e escrita. Ao entender o conceito, olhar e entender como escreve, vamos depois para a prática.
+
+Vamos aprender os tipos de dados mais utilizados na linguagem. (É possível aprender 80% de uma língua nova com cerca de 20% do vocabulário.)
 
 ## String
 
