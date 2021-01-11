@@ -85,6 +85,38 @@ Vamos aprender os tipos de dados mais utilizados na linguagem. (É possível apr
 
 ## String
 
+É uma cadeia de caracteres, por exemplo, "abc", "a" é seguindo de "b" que é seguido de "c". E, obviamente, essa cadeia forma textos.
+
+Para utilizar strings, devo inserir o conteúdo dentro de uma dessas opções:
+
+- "": aspas duplas;
+- '': aspas simples;
+- ``: template literals ou template strings.
+
+**Quando usar cada uma delas?**
+
+Por exemplo:
+
+```JS
+console.log("Angélica")
+```
+
+Se dentro desse texto eu vou colocar algo que levará aspas simples, então em volta será aspas duplas e vice-versa:
+
+```JS
+console.log("Angélica é 'web developer'")
+```
+
+```JS
+console.log('Angélica é "web developer"')
+```
+
+As crases, posso utilizar com aspas duplas, aspas simples e permitem que eu faça multilinhas, além de inserir expressões de linguagem/valores de interpolação.
+
+```JS
+console.log(`"Quanto é 1 + 1?" 'R': ${1 + 1}`)
+```
+
 ## Number
 
 ## Boolean
