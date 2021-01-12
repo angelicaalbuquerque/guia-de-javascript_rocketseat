@@ -119,6 +119,33 @@ console.log(`"Quanto é 1 + 1?" 'R': ${1 + 1}`)
 
 ## Number
 
+Numbers são tipos de dados identificadores de números.
+
+Eles podem ser positivos ou negativos:
+
+- Inteiros (ex: 33);
+- Reais (ex: 12.5);
+- NaN (not a number);
+- Infinity (infinito).
+
+**Entendendo o NaN**
+
+Se eu divido, por exemplo, 12.5 por 12, o resultado é 1.041. Agora, se eu divido por uma string, por exemplo, 12.5 / "dividido por 2", ele não entende e por isso retorna "não é um número".
+
+Mas se tentarmos 12.5 / "2", ele converte a string para número e consegue retornar o resultado.
+
+**Entendendo o Infinity**
+
+Posso igualar o valor 12.5 a Infinity, que vai retornar se é verdadeiro ou falso, se é igual a infinito.
+
+```JS
+console.log(12.5 === Infinity)
+```
+
+Nesse caso, o retorno é falso.
+
+Importante notar que Infinity tem que ser escrito com "i" maiúsculo, se não dá erro de referência.
+
 ## Boolean
 
 ## Undefined vs null
