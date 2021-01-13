@@ -148,6 +148,10 @@ Importante notar que Infinity tem que ser escrito com "i" maiúsculo, se não d�
 
 ## Boolean
 
+Bolean é um tipo de dado que só tem dois valores: verdadeiro (true) ou falso (false).
+
+É muito usual porque sempre vamos encontrar verdadeiro/falso em lógica da programação. Por exemplo: vou fazer um café. Minha xícara está suja? Se for verdadeiro, vou limpar; se for falso, vou colocar o café na xícara.
+
 ## Undefined vs null
 
 ## Object
