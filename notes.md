@@ -154,6 +154,16 @@ Bolean é um tipo de dado que só tem dois valores: verdadeiro (true) ou falso (
 
 ## Undefined vs null
 
+São dois tipos de dados que podem ser confundidos.
+
+Undefined:
+
+- É uma palavra-chave para dizer que algo é indefinido.
+
+Null:
+
+- É uma palava-chave para dizer que algo é nulo, ou seja, é diferente de indefinido por ser considerado como um objeto que não possui nada dentro.
+
 ## Object
 
 ## Array
