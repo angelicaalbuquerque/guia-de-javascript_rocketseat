@@ -240,3 +240,120 @@ Como o objeto é um tipo estrutural, ele tem uma estrutura e, assim, recebe prop
 O null é o único que é primitivo e ao mesmo tempo estrutural porque está na categoria de objeto, apesar de ser um objeto vazio. Se tem algo dentro do objeto, ele deixa de ser null e se torna um objeto.
 
 Toda estrutura do JavaScript faz mais sentido quando entendemos BEM o objeto, pois praticamente todos os valores que tivermos estarão "embrulhados" em um objeto para que possamos ter mais poder ao acessá-los.
+
+# Variáveis
+
+Se você quer guardar coisas em seu armário, ele precisa ter espaço. Se não, é preciso retirar algumas coisas para que você possa ter espaço para as novas que quer colocar.
+
+Na programação, as variáveis funcionam mais ou menos desse jeito. O armário é a memória do computador, que tem que ter espaço (variável) para receber os tipos de dados (as coisas que você gostaria de guardar no armário).
+
+As variáveis:
+
+- São nomes simbólicos para receber algum valor;
+- São atalhos de código;
+- Podem ser chamadas de identificadores.
+
+## Conhecendo as variáveis
+
+**Palavras reservadas**
+
+- var
+- let
+- const
+
+São as três palavras reservadas para criar uma variável e cada uma tem um comportamento diferente.
+
+Enquanto no _var_ e no _let_ você consegue reatribuir valores, na const isso não é possível.
+
+## Tipos dinâmicos
+
+O JavaScript é uma linguagem fracamente tipada e dinâmica; as variáveis não precisam ter um tipo previamente definido e podemos mudar o seu conteúdo.
+
+Em algumas linguagens de programação nós precisamos definir o tipo para criar a variável e depois atribuir um valor para a mesma. Vejamos a diferença:
+
+```js
+//JavaScript
+let clima = "Quente";
+```
+
+```ts
+//TypeScript
+let clima: String = "Quente";
+```
+
+Acima significa que "clima" é e sempre será uma string, ou seja, é uma variável tipada e estática.
+
+Para eu verificar o tipo de uma variável definida em JavaScript, posso utilizar "typeof":
+
+```js
+//JavaScript
+let clima = "Quente";
+console.log(typeof clima); // string
+```
+
+## Scope e var
+
+Escopo determina a visibilidade de alguma variável no JavaScript.
+
+Um _block statement_ significa declaração de bloco:
+
+```js
+//vamos iniciar um bloco
+{
+  //aqui dentro é um bloco e posso colocar qualquer código.
+} //aqui fechamos o bloco
+```
+
+O bloco também criará um novo escopo que é chamado de "block-scoped".
+
+**var**
+
+O var é global, local e pode funcionar fora de um escopo de bloco.
+
+Global é tudo que está executando na aplicação.
+
+Local é o que somente existe dentro de um escopo.
+
+Dentro das chaves temos o escopo local. Já tudo que está no bloco de código é o escopo global.
+
+```js
+//erro de referência porque x não foi declarado
+console.log("> existe x antes do bloco? ", x);
+{
+}
+```
+
+```js
+//x existe antes do bloco
+var x = 0;
+console.log("> existe x antes do bloco? ", x);
+{
+}
+```
+
+```js
+// retorno é undefined: x existe, mas não tem valor definido para ele
+console.log("> existe x antes do bloco? ", x);
+{
+  var x = 0;
+}
+```
+
+Por que acontece "undefined" acima?
+
+Porque o código JavaScript vem lendo de cima para baixo, linha a linha. Apesar de _x_ só começar a ser declarado depois do _console.log_, o JavaScript tem um conceito muito interessante em relação à _var_ que é levá-la para o topo do código, como se fosse isso:
+
+```js
+// retorno é undefined
+var x
+console.log("> existe x antes do bloco? ", x);
+{
+  = 0;
+}
+```
+
+Como _var_ é global, o JavaScript "puxa" de dentro do bloco e declara lá em cima, sem o desenvolvedor conseguir ver, em um conceito chamado de **hoisting** (elevação), para depois atualizar o valor.
+
+## Scope let e const
+
+## Nomeando variáveis
