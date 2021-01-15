@@ -166,6 +166,77 @@ Null:
 
 ## Object
 
+É um tipo de dado estrutural, que cria/causa uma estrutura.
+
+Todo objeto, seja no mundo real ou abstrato, possui **proriedades (atributos)** e **funcionalidades (métodos)**.
+
+Para escrever um objeto em JavaScript, abrimos chaves, colocamos o nome da propriedade e, em seguida, seu valor:
+
+```js
+{
+  propriedade: "valor",
+}
+```
+
+Exemplo onde o objeto tem propriedades e funcionalidade "andar":
+
+```js
+{
+  nome: "Angélica",
+  idade: 30,
+  andar: function(){
+    console.log("andar")
+  }
+}
+```
+
 ## Array
 
+Os vetores (arrays) são tipos de dados estruturais e servem para criação de listas e agrupamento de dados.
+
+Exemplo com dados de uma lista (de um array) de itens de supermercado:
+
+```js
+console.log(["Melancia", "Batata", "Melão", "Kiwi", "Uva"]);
+```
+
 ## Conclusão
+
+Conforme o ECMAScript standard, órgão que padroniza o JavaScript, existem 9 tipos de dados:
+
+- Data types:
+
+  - primitive / primitive value
+  - structural
+  - structural primitive
+
+- Primitivos:
+
+  - String
+  - Number
+  - Boolean
+  - undefined
+  - Symbol
+  - BigInt
+
+  Os primitivos não são objetos e **seus valores são imutáveis**.
+
+  Ou seja, uma string "abc" é e só pode ser "abc", o que é diferente de "ABC", "cba" e assim por diante.
+
+  - Estruturais:
+  - Object
+    - Array
+    - Map
+    - Set
+    - Date
+    - [...](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects)
+  - Function
+
+Como o objeto é um tipo estrutural, ele tem uma estrutura e, assim, recebe propriedades (atributos) e funcionalidades (métodos). Todo objeto tem algum tipo de atributo e funcionalidade.
+
+- Primitivo Estrutural (Structural Root Primitive):
+  - null
+
+O null é o único que é primitivo e ao mesmo tempo estrutural porque está na categoria de objeto, apesar de ser um objeto vazio. Se tem algo dentro do objeto, ele deixa de ser null e se torna um objeto.
+
+Toda estrutura do JavaScript faz mais sentido quando entendemos BEM o objeto, pois praticamente todos os valores que tivermos estarão "embrulhados" em um objeto para que possamos ter mais poder ao acessá-los.
