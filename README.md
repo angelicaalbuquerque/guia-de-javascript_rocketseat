@@ -173,9 +173,25 @@ Os desafios dos módulos estarão disponíveis em breve.
 ## 📬 Entre em contato!
 
 <p align="left">
-  <a href="https://twitter.com/angelica_oa/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/twitter.svg" alt="/twitter angelica_oa" height="30" width="30" /></a>&nbsp &nbsp
-  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/linkedin.svg" alt="Linkedin - Angélica Albuquerque" height="30" width="30" /></a>&nbsp &nbsp
-  <a href="mailto:angelica.o.albuquerque@gmail.com" target="blank"><img align="center" src="https://cdn.jsdelivr.net/npm/simple-icons@3.0.1/icons/gmail.svg" alt="Email - Angélica Albuquerque" height="30" width="30" /></a>
+
+  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank" style="text-decoration:none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/linkedin.svg" alt="Linkedin" height="30" width="30" />
+  </a>&nbsp &nbsp  
+  <a href="mailto:angelica.o.albuquerque@gmail.com" target="blank" style="text-decoration:none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/email.svg" alt="Email" height="30" width="30" />
+  </a>&nbsp &nbsp 
+  <a href="https://twitter.com/angelica_oa/" target="blank" style="text-decoration:none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/twitter.svg" alt="Twitter" height="30" width="30" />
+    </a>&nbsp &nbsp    
+  <a href="https://dev.to/angelica_oa" target="blank" style="text-decoration:none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/devto.svg" alt="DevTo" height="32" width="32" />
+  </a>&nbsp &nbsp
+  <a href="https://pinterest.com/angelica_oa" target="blank" style="text-decoration:none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/pinterest.svg" alt="Pinterest" height="30" width="30" />
+  </a>&nbsp &nbsp
+  <a href="https://www.instagram.com/angelicaoa.dev/" target="blank" style="text-decoration:none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/instagram.svg" alt="Instagram" height="30" width="30" />
+  </a>&nbsp &nbsp
 </p>
 
 ---
@@ -185,5 +201,5 @@ Feito com ☕ e 🖤 por Angélica Albuquerque
 </p>
 
 <p align="center">
-<img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="25px"> 
+<img src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/main/gif/hi.gif" width="25px"> 
 </p>
