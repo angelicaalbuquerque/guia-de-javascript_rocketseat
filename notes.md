@@ -463,3 +463,145 @@ Ideal é:
 - Utilizar camelCase;
 - Ou utilizar snake_case;
 - Escrever em inglês.
+
+# Praticando e Avançando
+
+## Declaration assignment var
+
+Declaração de variável (declaration):
+
+```js
+var name;
+```
+
+Atribuição de valores (assignment):
+
+```js
+var name = "angelica";
+```
+
+Verficação de tipo de dado da variável:
+
+```js
+console.log(typeof name);
+```
+
+## Agrupando declarações
+
+```js
+let age = 20; //number
+let isHuman = true; //boolean
+```
+
+Eu posso fazer declarações conjuntas, ou seja, agrupá-las deste modo:
+
+```js
+let age, isHuman;
+
+age = 18;
+isHuman = true;
+
+console.log(age, isHuman);
+//múltiplos argumentos na função
+```
+
+## Concatenando e interpolando variáveis
+
+Continuando com os exemplos anteriores, se eu quisesse imprimir em textos no console, poderia fazer:
+
+```js
+console.log("A Angélica tem 18 anos.");
+```
+
+Mas podemos melhorar essa declaração através de substituição dos valores por variáveis, concatenando-as:
+
+```js
+console.log("A " + name + " tem " + age + " anos.");
+//escrita de texto mais variáveis concatenando valores
+```
+
+Mas pode ficar melhor interpolando valores e utilizando _template string_:
+
+```js
+console.log(`A ${name} tem ${age} anos.`);
+//interpolando valores com template strings
+```
+
+## Objects
+
+Fazendo a criação de um objeto com propriedade e valor:
+
+```js
+const person = {
+  name: "Jorge",
+  age: 30,
+  weight: 88.6,
+  isAdmin: true,
+};
+```
+
+Para imprimir dados específicos via console.log, faço:
+
+```js
+console.log(person.name);
+console.log(`${person.name} pesa ${person.weight} quilos.`);
+```
+
+## Arrays
+
+Criando um array de strings:
+
+```js
+const animals = ["Lion", "Monkey", "Cat"];
+```
+
+Ao fazer _console.log(animals)_, o array é exibido da seguinte forma:
+
+```bash
+(3) ["Lion", "Monkey", "Cat"]
+0: "Lion"
+1: "Monkey"
+2: "Cat"
+length: 3
+```
+
+Para acessar valores específicos dentro de um array, eu tenho que pegar a posição do array e insiro dentro de colchetes ("0", "1" e "2" são número e por isso causaria uma confusão se eu tentasse acessá-los diretamente, por não serem interpretados como posições):
+
+```js
+console.log(animals[0]); //"Lion"
+```
+
+Para eu saber o total de elementos do array, utilizo o _length_ e acesso deste modo:
+
+```js
+console.log(animals.length); //3
+```
+
+Lembrando que array pode ser composto por outros tipos, **apesar de não ser recomendado**.
+
+No caso abaixo, "Lion" e "Monkey" são strings, enquanto "Cat" faz parte de um objeto:
+
+```js
+const animals = [
+  "Lion",
+  "Monkey",
+  {
+    name: "Cat",
+    age: 3,
+  },
+];
+```
+
+Ao acessar \_console.log(animals[2]), é mostrado:
+
+```bash
+{name: "Cat", age: 3}
+age: 3
+name: "Cat"
+```
+
+E posso acessar uma propriedade desse objeto:
+
+```js
+console.log(animals[2].name); //"Cat"
+```
