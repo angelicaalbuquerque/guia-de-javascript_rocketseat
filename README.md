@@ -50,7 +50,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 03 | Tipos de Dados 🛠️</summary>
+  <summary>Módulo 03 | Tipos de Dados ✔️</summary>
 
 - Introdução
 - String
@@ -63,7 +63,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 04 | Variáveis 🚧</summary>
+  <summary>Módulo 04 | Variáveis ✔️</summary>
 
 - Conhecendo as variáveis
 - Tipos dinâmicos
@@ -74,7 +74,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 05 | Praticando e Avançando 🚧</summary>
+  <summary>Módulo 05 | Praticando e Avançando 🛠️</summary>
 
 - Declaration assignment var
 - Agrupando declarações
