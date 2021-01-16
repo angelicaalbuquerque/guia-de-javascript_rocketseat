@@ -435,4 +435,31 @@ const c = 1;
 console.log("existe c depois do bloco? ", c); //1
 ```
 
+Usualmente, desenvolvedores preferem utilizar _let_ e _const_ porque _var_ acaba sendo muito flexível e permite alterações em diferentes escopos, podendo causar bugs.
+
 ## Nomeando variáveis
+
+**Para criar nomes**
+
+- JS é case-sensitive (sensível ao caso);
+- JS aceita a cadeira de caracteres Unicode (você pode colocar aspas e acentuções nos nomes de suas variáveis).
+
+Eu posso:
+
+- Iniciar com esses caracteres especiais: "$" "\_" ;
+- Iniciar com letras;
+- Colocar acentos;
+- Letras maiúsculas e minúsculas fazem diferença.
+
+Não posso:
+
+- Iniciar com números;
+- Colocar espaços vazios no nome.
+
+Ideal é:
+
+- Criar nomes que façam sentido;
+- Que expliquem o que a variável é ou faz;
+- Utilizar camelCase;
+- Ou utilizar snake_case;
+- Escrever em inglês.
