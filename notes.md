@@ -356,4 +356,83 @@ Como _var_ é global, o JavaScript "puxa" de dentro do bloco e declara lá em ci
 
 ## Scope let e const
 
+_Const_ e _let_ são locais e só funcionam no escopo onde foram criadas. No _var_, como visto acima, acontece o _hoisting_.
+
+**let**
+
+Nos dois casos a seguir, acontecerá erros de referência/de visibilidade de variável, que está somente no escopo onde foi criada:
+
+```js
+console.log("> existe y antes do bloco? ", y);
+//não existe no escopo global, só no escopo local
+{
+  let y = 0;
+}
+```
+
+```js
+{
+  let y = 0;
+}
+console.log("> existe y depois do bloco? ", y);
+//não existe no escopo global, só no escopo local
+```
+
+No caso abaixo, ele sabe que existe _w_, mas não pode acessá-lo antes da inicialização, já que o _let_ não permite o _hoisting_.
+
+```js
+{
+  console.log("> existe w antes? ", w);
+  let w = 0;
+  //sabe que existe, mas não pode acessar 'w'
+}
+```
+
+Só vai funcionar depois que eu declarei e adicionei um valor a ele:
+
+```js
+{
+  let w = 0;
+  console.log("> existe w? ", w);
+  //existe, valor 0
+}
+```
+
+No caso abaixo, começo declarando _z_ globalmente como 1. Mas como trago essa variável "de fora", quando ela entra no escopo local ela atualiza, resultando em saída _0_ em ambas as perguntas.
+
+Como dentro do escopo não há uma palavra chave reservada, ou seja, "let z = 0", ele sobe um escopo para procurar o _z_ em algum lugar. Assim, ele entende que só precisa atualizar o valor para 0.
+
+```js
+let z = 1;
+{
+  z = 0;
+  console.log("existe z?", z); //0
+}
+console.log("existe z depois do bloco? ", z); //0
+```
+
+**const**
+
+A _const_, como o nome já indica, é constante. Ou seja, não muda. Você não pode atualizar valor quando uma variável for constante.
+
+```js
+const c = 1;
+{
+  c = 0;
+  console.log("existe c?", c);
+}
+console.log("existe c depois do bloco? ", c);
+```
+
+Mas é possível criar uma nova constante em um outro escopo, mesmo que o nome seja igual, pois pertencem a "grupos" diferentes:
+
+```js
+const c = 1;
+{
+  const c = 0;
+  console.log("existe c?", c); //0
+}
+console.log("existe c depois do bloco? ", c); //1
+```
+
 ## Nomeando variáveis
