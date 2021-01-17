@@ -18,7 +18,7 @@
 <p align="center">
   <a href="#-Sobre">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a>
-  <a href="#-Notas">Notas de aula</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-Notas-de-aula">Notas de aula</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Desafios">Desafios</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-Entre-em-contato">Contato</a>
 </p>
@@ -164,7 +164,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 
 ## 📝 Notas de aula
 
-As anotações das aulas estarão disponíveis em breve.
+As anotações das aulas estão disponíveis <a href="https://github.com/angelicaalbuquerque/guia-de-javascript_rocketseat/blob/main/notes.md" target="_blank">aqui</a>.
 
 ## 💻 Desafios
 
@@ -174,26 +174,25 @@ Os desafios dos módulos estarão disponíveis em breve.
 
 <p align="left">
 
-  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank" style="text-decoration:none;">
+  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/linkedin.svg" alt="Linkedin" height="30" width="30" />
   </a>&nbsp &nbsp  
-  <a href="mailto:angelica.o.albuquerque@gmail.com" target="blank" style="text-decoration:none;">
+  <a href="mailto:angelica.o.albuquerque@gmail.com" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/email.svg" alt="Email" height="30" width="30" />
   </a>&nbsp &nbsp 
-  <a href="https://twitter.com/angelica_oa/" target="blank" style="text-decoration:none;">
+  <a href="https://twitter.com/angelica_oa/" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/twitter.svg" alt="Twitter" height="30" width="30" />
     </a>&nbsp &nbsp    
-  <a href="https://dev.to/angelica_oa" target="blank" style="text-decoration:none;">
-    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/devto.svg" alt="DevTo" height="32" width="32" />
+  <a href="https://dev.to/angelica_oa" target="blank" style="text-decoration: none;">
+    <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/devto.svg" alt="DevTo" height="30" width="30" />
   </a>&nbsp &nbsp
-  <a href="https://pinterest.com/angelica_oa" target="blank" style="text-decoration:none;">
+  <a href="https://pinterest.com/angelica_oa" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/pinterest.svg" alt="Pinterest" height="30" width="30" />
   </a>&nbsp &nbsp
-  <a href="https://www.instagram.com/angelicaoa.dev/" target="blank" style="text-decoration:none;">
+  <a href="https://www.instagram.com/angelicaoa.dev/" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/instagram.svg" alt="Instagram" height="30" width="30" />
   </a>&nbsp &nbsp
 </p>
-
 ---
 
 <p align="center">
