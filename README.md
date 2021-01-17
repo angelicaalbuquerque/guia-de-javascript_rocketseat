@@ -74,7 +74,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 05 | Praticando e Avançando 🛠️</summary>
+  <summary>Módulo 05 | Praticando e Avançando ✔️</summary>
 
 - Declaration assignment var
 - Agrupando declarações
@@ -86,7 +86,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 06 | Praticando e Avançando 🚧</summary>
+  <summary>Módulo 06 | Functions 🛠️</summary>
 
 - Functions
 - Argumentos e parâmetros
