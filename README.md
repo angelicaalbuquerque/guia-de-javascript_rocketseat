@@ -174,25 +174,26 @@ Os desafios dos módulos estarão disponíveis em breve.
 
 <p align="left">
 
-  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank" style="text-decoration: none;">
+  <a href="https://linkedin.com/in/angelica-albuquerque/" target="blank" style="text-decoration: none; color: unset;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/linkedin.svg" alt="Linkedin" height="30" width="30" />
-  </a>&nbsp &nbsp  
+  </a> &nbsp
   <a href="mailto:angelica.o.albuquerque@gmail.com" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/email.svg" alt="Email" height="30" width="30" />
-  </a>&nbsp &nbsp 
+  </a> &nbsp 
   <a href="https://twitter.com/angelica_oa/" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/twitter.svg" alt="Twitter" height="30" width="30" />
-    </a>&nbsp &nbsp    
+    </a> &nbsp
   <a href="https://dev.to/angelica_oa" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/devto.svg" alt="DevTo" height="30" width="30" />
-  </a>&nbsp &nbsp
+  </a> &nbsp
   <a href="https://pinterest.com/angelica_oa" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/pinterest.svg" alt="Pinterest" height="30" width="30" />
-  </a>&nbsp &nbsp
+  </a> &nbsp
   <a href="https://www.instagram.com/angelicaoa.dev/" target="blank" style="text-decoration: none;">
     <img align="center" src="https://raw.githubusercontent.com/angelicaalbuquerque/badges-and-icons/f7a53a1a79600d93eed5e21e8f32ff0256471e00/icons/instagram.svg" alt="Instagram" height="30" width="30" />
-  </a>&nbsp &nbsp
+  </a> &nbsp &nbsp
 </p>
+
 ---
 
 <p align="center">
