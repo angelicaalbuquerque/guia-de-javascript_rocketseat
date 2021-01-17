@@ -605,3 +605,65 @@ E posso acessar uma propriedade desse objeto:
 ```js
 console.log(animals[2].name); //"Cat"
 ```
+
+# Funções
+
+Vamos supor que eu queria criar um aplicativo de frases motivacionais:
+
+```js
+console.log("Estudar é muito bom.");
+console.log("Paciência é persistência.");
+console.log("Revisão é a mãe do aprendizado.");
+console.log("Sempre haverá um próximo nível.");
+```
+
+Por algum motivo, eu quero repetir essas frases mais vezes. Existe um jeito para fazer essa repetição sem necessariamente precisar do "control C + control V". Esse jeito é com **função**.
+
+A função tem esses motivos:
+
+- Explicar o que o código quer dizer;
+- Agrupar o código;
+- Repetir o código.
+
+**Declaração da função (function statement/declaration)**
+
+Função também é um tipo de dado estrutural, bem organizada, para receber o código/agrupar um código que pode ser utilizado/reutilizado mais tarde.
+
+Sua criação é feita da seguinte maneira:
+
+```js
+function createPhrases() {
+  console.log("Estudar é muito bom.");
+  console.log("Paciência é persistência.");
+  console.log("Revisão é a mãe do aprendizado.");
+  console.log("Sempre haverá um próximo nível.");
+}
+```
+
+Todo esse bloco fica guardado em memória pelo JavaScript para que ele seja chamado a qualquer momento.
+
+É como se o JavaScript percorresse o caminho todo do código e guardasse o nome da função como uma espécie de "atalho"; então, quando a função fosse chamda, ele lembraria desse atalho e o usaria.
+
+**Chamar a função (execute, run, call, invoke function)**
+
+Simplesmente a chamo pelo nome juntamente aos seus parênteses:
+
+```js
+createPhrases();
+```
+
+## Argumentos e parâmetros
+
+## Retornando valores dentro da função
+
+## Outra maneira de entender funções
+
+## Function scope
+
+## Function Hoisting
+
+## Arrow function
+
+## Callback function
+
+## Funções construtoras
