@@ -1,10 +1,5 @@
-function createPhrases() {
-  console.log("Estudar é muito bom.");
-  console.log("Paciência é persistência.");
-  console.log("Revisão é a mãe do aprendizado.");
-  console.log("Sempre haverá um próximo nível.");
-}
+const sum = function (number1, number2) {
+  console.log(number1 + number2);
+};
 
-createPhrases();
-
-console.log("Fim do programa");
+sum(2, 3);

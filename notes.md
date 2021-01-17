@@ -654,6 +654,61 @@ createPhrases();
 
 ## Argumentos e parâmetros
 
+Podemos declarar funções dentro de variáveis.
+
+```js
+const sum = function () {};
+```
+
+A função acima é chamada de **função anônima** (ou _function expression_), pois não possui um nome. Entretnto, ela segue a mesma ideia da declaração de função aprendida anteriormente para ser invocada:
+
+```js
+sum();
+```
+
+Para eu calcular uma soma nesta função, eu tenho que passar **argumentos** para ela dentro dos parênteses, para que ela os receba quando for invocada.
+
+Ela recebe esses argumentos (que no caso abaixo são _2_ e _3_) através de **parâmetros** (parameters), escritos como _number1_ e _number2_:
+
+```js
+const sum = function (number1, number2) {};
+
+sum(2, 3); //argumentos da função executada
+```
+
+É como se, "por baixo dos panos", ele estivesse fazendo essa atribuição nesse escopo:
+
+```js
+const sum = function (number1, number2) {
+  let number1 = 2;
+  let number2 = 3;
+};
+sum(2, 3);
+```
+
+**Somando os números**
+
+O trecho abaixo retorna 5, funciona com sucesso:
+
+```js
+const sum = function (number1, number2) {
+  console.log(number1 + number2);
+};
+sum(2, 3);
+```
+
+Agora, caso eu acesse algum desses parâmetros fora do escopo da função, eu tenho erro de referência:
+
+```js
+const sum = function (number1, number2) {
+  console.log(number1 + number2);
+};
+
+console.log(number1);
+sum(2, 3);
+//Uncaught ReferenceError: number1 is not defined
+```
+
 ## Retornando valores dentro da função
 
 ## Outra maneira de entender funções
