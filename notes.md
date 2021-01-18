@@ -711,9 +711,236 @@ sum(2, 3);
 
 ## Retornando valores dentro da função
 
+Agora que conheço que é possível repetir o código de soma e fazer diferentes somas passando argumentos, vamos para algo novo.
+
+```js
+const sum = function (number1, number2) {
+  console.log(number1 + number2);
+};
+
+let number1 = 34;
+let number2 = 25;
+
+sum(number1, number2);
+```
+
+Esse _number1_ e esse _number2_ que estão fora não fazem parte do escopo do bloco de código dentro das chaves, como já vimos. Ao fazer isso, teremos o cálculo "59".
+
+E agora? qual seria o resultado impresso pelo console nessa ocasião?
+
+```js
+const sum = function (number1, number2) {
+  console.log(number1 + number2);
+};
+
+let number1 = 34;
+let number2 = 25;
+
+console.log(`o número 1 é ${number1}`);
+console.log(`o número 2 é ${number2}`);
+console.log(`a soma é ${sum(number1, number2)}`);
+```
+
+No caso, a impressão será:
+
+```bash
+O número 1 é 34
+O número 2 é 25
+59
+a soma é undefined
+```
+
+Como na linha `console.log(`a soma é ${sum(number1 + number2)}`);` o código ainda está construindo a frase e interpolando o valor; ele entra nessa expressão "`sum(number1 + number2)`", executa a função `function (number1, number2)` e nessa execução contém "`console.log(number1 + number2)`", fazendo com que o código imediatamente imprima `59`.
+
+Ao término dessa execução, ele vai retornar toda a função (já que toda função tem que retornar algo). Só que quando uma função não possui a palavra-chave **return**, como no caso acima, ela vai retornar **undefined**.
+
+Então, para acertar o código, fica:
+
+```js
+const sum = function (number1, number2) {
+  total = umber1 + number2;
+  return total;
+};
+
+let number1 = 34;
+let number2 = 25;
+
+console.log(`o número 1 é ${number1}`);
+console.log(`o número 2 é ${number2}`);
+console.log(`a soma é ${sum(number1, number2)}`);
+```
+
+Agora temos outra coisa acontecendo. Dentro dessa função não temos nenhum `console.log`, então quando o código começar a execução da função `sum(number1, number2)`, vai em `function (number1, number2)` fazer o registro de cada número em cada parâmetro e colocar em `total`, depois vai achar a linha `return` e inserir esse total.
+
+Como uma função sempre que encontra uma linha `return` para a execução e retorna o que vem logo à frente, nesse caso é a variável total, que é justamente o resultado da função que chamo em `` console.log(`a soma é ${sum(number1, number2)}`) ``.
+
+Vale alertar que _total_ foi declarado sem var/let/const e pode ser acessada fora do escopo de função após `` console.log(`a soma é ${sum(number1, number2)}`) `` (se tentar acessar antes, vai dar erro de referência).
+
+Curioso que se fosse um escopo de bloco de código e não de função, se eu declarasse _var = total_ eu conseguiria acessar fora desse escopo; mas, tratando-se de escopo de função, nem mesmo o _var_ consegue ser visto de fora.
+
 ## Outra maneira de entender funções
 
+Imagine que a função é um liquidificador, que vai receber _fruta1_ e _fruta2_ e vai mesclá-las.
+
+```js
+function FazerSuco(fruta1, fruta2) {
+  return = fruta1 + fruta2
+}
+
+FazerSuco('banana', 'maçã')
+```
+
+`FazerSuco('banana', 'maçã')`
+significa que ao passar essas frutas, vai entrar na função e fazer o suco.
+
+Mas é preciso de um copo para receber esse suco; esse copo vai ser uma constante e depois vou mostrar no console.log o que tem nesse copo:
+
+```js
+function FazerSuco(fruta1, fruta2) {
+  return = fruta1 + fruta2
+}
+
+const copo = FazerSuco('banana', 'maçã')
+
+console.log(copo)
+```
+
 ## Function scope
+
+Suponhamos que agora vamos criar uma função que cria um pensamento e recebe um assunto.
+
+A função vai receber o mesmo nome da variável que tem do lado de fora e só vai retornar o valor:
+
+```js
+let subject;
+
+function createThink(subject) {
+  return subject;
+}
+
+console.log(createThink(subject));
+```
+
+Quando eu declaro uma variável e não passo valor, seu retorno, como já visto, é _undefined_.
+
+Abaixo, então, insiro a string "create video" como valor da variável subject:
+
+```js
+let subject = "create video";
+
+function createThink(subject) {
+  return subject;
+}
+
+console.log(subject);
+console.log(createThink(subject));
+
+//retorno em ambos os casos de console.log será create video
+```
+
+Abaixo, já faço diferente: digo, dentro da função, que subject vai receber "study". Assim, não me importa o que eu estou passando em `function createThink(subject)`, pois o subject será atualizado para "study".
+
+```js
+let subject = "create video";
+
+function createThink(subject) {
+  subject = "study";
+  return subject;
+}
+
+console.log(subject); //create video
+console.log(createThink(subject)); //study
+```
+
+Caso a função `createThink` não tivesse parâmetro, o retorno de ambos `console.log` seria "study", pois ao executar a função ele pegará o _subject_ do escopo anterior para sobrescrever.
+
+```js
+let subject = "create video";
+
+function createThink() {
+  subject = "study";
+  return subject;
+}
+
+console.log(subject); //study
+console.log(createThink(subject)); //study
+```
+
+Então, só existe no escopo `{subject = "study"; return subject;}` um novo subject se por acaso eu colocá-lo como parâmetro em `function createThink(subject)`.
+
+Ou seja: esse subject nesse escopo tem o significado de "study":
+
+```js
+function createThink(subject) {
+  subject = "study";
+  return subject;
+}
+```
+
+E esse aqui tem outro significado:
+
+```js
+let subject = "create video";
+```
+
+Mas a partir do momento que eu não crio um parâmetro, então esse _subject_ de dentro do escopo da função vai agora buscar o do escopo anterior e atualizá-lo no retorno.
+
+```js
+let subject = "create video";
+
+function createThink() {
+  subject = "study";
+  return subject;
+}
+
+console.log(createThink(subject)); //study
+console.log(subject); //study
+```
+
+E se eu quiser imprimir `console.log(createThink())`, o retorno será _undefined_, enquanto `console.log(subject)` será "study".
+
+Outro teste de impressão: criando a variável _subject_ sem passar algum valor e imprimindo um `console.log(subject)` antes de chamar `createThink()`, mesmo sem passar nenhum pensamento como argumento:
+
+```js
+let subject;
+
+function createThink() {
+  subject = "study";
+  return subject;
+}
+
+console.log(subject); //undefined
+console.log(createThink()); //study: retorno da função
+console.log(subject); //study: subject declarado sem valor e que foi atualizado fora
+```
+
+Agora, se a função não retornar nada, ao fazer `console.log(createThink())` vai aparecer _undefined_, pois **toda função que não tem retorno resulta em _undefined_**.
+
+```js
+let subject;
+
+function createThink() {
+  subject = "study";
+}
+
+console.log(subject); //undefined
+console.log(createThink()); //undefined
+console.log(subject); //study: subject declarado sem valor e que foi atualizado fora
+```
+
+Aqui ocorreria só a atualização, não retornaria nada:
+
+```js
+let subject;
+
+function createThink() {
+  subject = "study";
+}
+
+console.log(subject); //undefined
+createThink(); //não é mostrado no console, ela só atualiza a variável para study
+console.log(subject); //study: subject declarado sem valor e que foi atualizado fora
+```
 
 ## Function Hoisting
 
