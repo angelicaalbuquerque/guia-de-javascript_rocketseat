@@ -24,7 +24,7 @@ A comunidade cresce cada vez mais e a linguagem está sempre evoluindo.
 
 Essa palavra significa escrever textos de uma maneira correta. Toda linguagem tem sintaxe, seja idioma ou uma linguagem de programação.
 
-Uma boa comunicação necessita de uma boa sintaxe. Cerca de 82% dos erros para iniciantes estão na sintaxe, ou seja, na maneira de não esxrever corretamente.
+Uma boa comunicação necessita de uma boa sintaxe. Cerca de 82% dos erros para iniciantes estão na sintaxe, ou seja, na maneira de não escrever corretamente.
 
 Por exemplo, se eu escrever "consolelog" e não "console.log", há um erro de sintaxe que vai fazer o computador entender que é uma função e não um objeto (console) para depois uma função (log).
 
@@ -67,21 +67,21 @@ Para ignorar código em JavaScript ou comentá-lo, podemos usar "//" em caso de 
 
 # Tipos de dados
 
-Para aprender uma linguagem nova, precisamos entender sua gramática, ou seja, os elementos da linguagem e suas combinações; escrever corretamente.
+Para aprender uma linguagem nova, precisamos entender sua **gramática**, ou seja, os elementos da linguagem e suas combinações; escrever corretamente.
 
-No caso do JavaScript, precisamos entender os tipos de dados e quais as combinações para, então, desenvolvermos nossa habilidade de desenvolver corretamente com JavaScript.
+No caso do JavaScript, precisamos entender os tipos de dados e quais as combinações para, então, desenvolvermos nossa habilidade de programar corretamente com JavaScript.
 
-O vocabulário é o conjunto de termos e expressões da linguagem ou o agrupamento de palavras. Quanto mais você vai aprendendo os termos e expressões da linguagem, maior será sua fluência e maior será o seu vocabulário.
+O **vocabulário** é o conjunto de termos e expressões da linguagem ou o agrupamento de palavras. Quanto mais você vai aprendendo os termos e expressões da linguagem, maior será sua fluência e maior será o seu vocabulário.
 
-Então, precisamos, então:
+Então, precisamos:
 
 - Saber como escrever;
 - Saber os significados;
 - Continuar aprendendo para crescer nosso vocabulário.
 
-Neste módulo, o foco é conceito e escrita. Ao entender o conceito, olhar e entender como escreve, vamos depois para a prática.
+O foco deste estudo agora é conceito e escrita. Ao entender o conceito, olhar e entender como escreve, vamos depois para a prática.
 
-Vamos aprender os tipos de dados mais utilizados na linguagem. (É possível aprender 80% de uma língua nova com cerca de 20% do vocabulário.)
+Vamos aprender os tipos de dados mais utilizados na linguagem. _É possível aprender 80% de uma língua nova com cerca de 20% do vocabulário._
 
 ## String
 
@@ -111,7 +111,7 @@ console.log("Angélica é 'web developer'")
 console.log('Angélica é "web developer"')
 ```
 
-As crases, posso utilizar com aspas duplas, aspas simples e permitem que eu faça multilinhas, além de inserir expressões de linguagem/valores de interpolação.
+Posso utilizar as template strings (crases) com aspas duplas e aspas simples; elas permitem que eu faça multilinhas, além de inserir expressões de linguagem/valores de interpolação.
 
 ```JS
 console.log(`"Quanto é 1 + 1?" 'R': ${1 + 1}`)
@@ -144,7 +144,7 @@ console.log(12.5 === Infinity)
 
 Nesse caso, o retorno é falso.
 
-Importante notar que Infinity tem que ser escrito com "i" maiúsculo, se não dá erro de referência.
+_Importante notar que Infinity tem que ser escrito com "i" maiúsculo, se não dá erro de referência._
 
 ## Boolean
 
@@ -263,7 +263,7 @@ As variáveis:
 
 São as três palavras reservadas para criar uma variável e cada uma tem um comportamento diferente.
 
-Enquanto no _var_ e no _let_ você consegue reatribuir valores, na const isso não é possível.
+Enquanto no _var_ e no _let_ você consegue reatribuir valores, na _const_ isso não é possível.
 
 ## Tipos dinâmicos
 
@@ -592,7 +592,7 @@ const animals = [
 ];
 ```
 
-Ao acessar \_console.log(animals[2]), é mostrado:
+Ao acessar _console.log(animals[2])_, é mostrado:
 
 ```bash
 {name: "Cat", age: 3}
