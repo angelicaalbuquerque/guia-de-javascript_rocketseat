@@ -642,7 +642,7 @@ function createPhrases() {
 
 Todo esse bloco fica guardado em memória pelo JavaScript para que ele seja chamado a qualquer momento.
 
-É como se o JavaScript percorresse o caminho todo do código e guardasse o nome da função como uma espécie de "atalho"; então, quando a função fosse chamda, ele lembraria desse atalho e o usaria.
+É como se o JavaScript percorresse o caminho todo do código e guardasse o nome da função como uma espécie de "atalho"; então, quando a função fosse chamada, ele lembraria desse atalho e o usaria.
 
 **Chamar a função (execute, run, call, invoke function)**
 
@@ -660,7 +660,7 @@ Podemos declarar funções dentro de variáveis.
 const sum = function () {};
 ```
 
-A função acima é chamada de **função anônima** (ou _function expression_), pois não possui um nome. Entretnto, ela segue a mesma ideia da declaração de função aprendida anteriormente para ser invocada:
+A função acima é chamada de **função anônima** (ou _function expression_), pois não possui um nome. Entretanto, ela segue a mesma ideia da declaração de função aprendida anteriormente para ser invocada:
 
 ```js
 sum();
@@ -758,7 +758,7 @@ Então, para acertar o código, fica:
 
 ```js
 const sum = function (number1, number2) {
-  total = umber1 + number2;
+  total = number1 + number2;
   return total;
 };
 
@@ -772,7 +772,7 @@ console.log(`a soma é ${sum(number1, number2)}`);
 
 Agora temos outra coisa acontecendo. Dentro dessa função não temos nenhum `console.log`, então quando o código começar a execução da função `sum(number1, number2)`, vai em `function (number1, number2)` fazer o registro de cada número em cada parâmetro e colocar em `total`, depois vai achar a linha `return` e inserir esse total.
 
-Como uma função sempre que encontra uma linha `return` para a execução e retorna o que vem logo à frente, nesse caso é a variável total, que é justamente o resultado da função que chamo em `` console.log(`a soma é ${sum(number1, number2)}`) ``.
+Como uma função sempre que encontra uma linha `return` para a execução retorna o que vem logo à frente, nesse caso será retornado a variável `total`, que é justamente o resultado da função que chamo em `` console.log(`a soma é ${sum(number1, number2)}`) ``.
 
 Vale alertar que _total_ foi declarado sem var/let/const e pode ser acessada fora do escopo de função após `` console.log(`a soma é ${sum(number1, number2)}`) `` (se tentar acessar antes, vai dar erro de referência).
 
