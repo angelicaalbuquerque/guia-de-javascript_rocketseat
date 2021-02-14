@@ -942,7 +942,7 @@ createThink(); //não é mostrado no console, ela só atualiza a variável para 
 console.log(subject); //study: subject declarado sem valor e que foi atualizado fora
 ```
 
-## Function Hoisting
+<!-- ## Function Hoisting
 
 <!-- ## Arrow function
 
