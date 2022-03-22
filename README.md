@@ -88,11 +88,11 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 <details>
   <summary>Módulo 06 | Functions 🛠️</summary>
 
-- Functions ✔️
-- Argumentos e parâmetros ✔️
-- Retornando valores dentro da função ✔️
-- Outra maneira de entender funções ✔️
-- Function scope ✔️
+- Functions
+- Argumentos e parâmetros
+- Retornando valores dentro da função
+- Outra maneira de entender funções
+- Function scope
 - Function Hoisting
 - Arrow function
 - Callback function
