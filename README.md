@@ -103,7 +103,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 <details>
   <summary>Módulo 07 | Manipulando dados 🛠️</summary>
 
-- Prototype
+- Prototype 🛠️
 - Type conversion coersion
 - Strings em números
 - Contando caracteres e digitos
