@@ -9,5 +9,6 @@ let date = new Date('2020-12-01')
 console.log(date.__proto__) */
 
 let name = new String("Angelica");
+name.surName = "Albuquerque";
 let age = new Number(31);
-console.log(name, age);
+console.log(name, name.surName, age);
