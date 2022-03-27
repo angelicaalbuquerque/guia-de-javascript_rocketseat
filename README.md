@@ -101,9 +101,9 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 07 | Manipulando dados 🛠️</summary>
+  <summary>Módulo 07 | Manipulando dados ✔️</summary>
 
-- Prototype 🛠️
+- Prototype
 - Type conversion coersion
 - Strings em números
 - Contando caracteres e digitos
@@ -118,7 +118,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 08 | Expressões e Operadores 🚧</summary>
+  <summary>Módulo 08 | Expressões e Operadores 🛠️</summary>
 
 - Expressões e operadores
 - New
