@@ -118,7 +118,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 08 | Expressões e Operadores 🛠️</summary>
+  <summary>Módulo 08 | Expressões e Operadores ✔️</summary>
 
 - Expressões e operadores
 - New
@@ -135,7 +135,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 09 | Condicionais e controle de fluxo 🚧</summary>
+  <summary>Módulo 09 | Condicionais e controle de fluxo ✔️</summary>
 
 - Controle de fluxo da aplicação
 - If e Else
@@ -144,7 +144,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 10 | Estruturas de repetição 🚧</summary>
+  <summary>Módulo 10 | Estruturas de repetição ✔️</summary>
 
 - For
 - While
@@ -153,7 +153,7 @@ Lecionado por Mayk Brito, o curso faz parte da trilha "Guias Estelares" do proje
 </details>
 
 <details>
-  <summary>Módulo 11 | Consolidando com exercícios 🚧</summary>
+  <summary>Módulo 11 | Consolidando com exercícios ✔️</summary>
 
 - Praticar para aperfeiçoar
 - Sistema de notas escolares
